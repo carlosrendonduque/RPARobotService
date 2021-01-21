@@ -17,7 +17,8 @@ import base64
 from envelopes import Envelope
 import pyodbc 
 from prettytable import PrettyTable
-
+# 
+# https://deepinthecode.com/2012/12/18/sending-sql-server-stored-procedure-results-as-an-html-table-in-email-using-python/
 # https://www.devdungeon.com/content/run-python-script-windows-service
 def send_report():
     server = '172.17.7.26' 
